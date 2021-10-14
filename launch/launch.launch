@@ -1,0 +1,4 @@
+<launch>
+    <node name="sub" pkg="ros_mooc" type="sub" output="screen"/>
+    <node name="pub" pkg="ros_mooc" type="pub" output="screen"/>
+</launch>

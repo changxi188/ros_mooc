@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>ros_mooc</name>
+    <version>0.0.1</version>
+    <description>"ros_mooc package"</description>
+    <maintainer email = "changxi188@holomatic.com">chengchangxi</maintainer>
+    <license>BSD</license>
+
+    <!-- 编译工具 -->
+    <buildtool_depend>catkin</buildtool_depend>
+
+
+    <!-- 编译时依赖项 -->
+    <build_depend>std_msgs</build_depend>
+    <build_depend>message_generation</build_depend>
+    
+    <!-- 运行时依赖项 -->
+    <run_depend>std_msgs</run_depend>
+    <run_depend>message_runtime</run_depend>
+
+</package>
